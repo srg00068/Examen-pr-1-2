@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 1 de evaluación - Opcion A</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Prueba 1 de evaluación - Opcion A</h1>
+    </header>
+
+    <main>
+        <section id="list">
+            <h2>Inventario</h2>
+            <p>La información se mostrara de la forma:</p><br>
+            <p>ID - cantidad - description - localizacion - referencia</p>
+
+            <button id="mostrar_lista" onclick="listar()" class="input"> Mostrar lista</button>
+            <button id="ocultar_entrada" class="input" onclick="ocultar()">Ocultar lista</button>
+            <ul id="lista_entradas">
+                
+            </ul>
+
+            
+
+        </section>
+
+        <aside id="search">
+            <h2>Busqueda</h2>
+            <form onsubmit="filtrar(event)">
+            <textarea name="Campo texto" id="Campo_texto" cols="20" rows="5" placeholder="Filtrar por referencia"></textarea>
+            <input type="submit" value="Filtrar" class="input">
+        </form>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>AUTORES: Sergio Real González</p>
+        <p>TITULACIÓN: Grado en Ingeniería telemática (14512016)</p>
+        <p>CENTRO: ESCUELA POLITÉCNICA SUPERIOR (LINARES)</p>
+        <p>CURSO ACADÉMICO: 2023-2024</p>
+    </footer>
+</body>
+</html>
